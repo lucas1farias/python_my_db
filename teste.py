@@ -42,26 +42,3 @@ list_ = [3, 0, 2, 1]
 set_ = {0, 1, 3, 2}
 string_ = '0213'
 tuple_ = (3, 2, 0, 1)
-
-
-def where_method_is(method):
-    box = []
-    types = ('dicionário', 'lista', 'conjunto', 'string', 'tupla')
-    iter_libraries = (dir({'': ''}), dir([]), dir(set({})), dir(''), dir(()))
-    for pos, method_array in enumerate(iter_libraries):
-        if method in method_array:
-            box.append(types[pos])
-    return f'{method} -> {box}'
-
-
-methods_notation = (
-    where_method_is('add'), where_method_is('append'), where_method_is('center'), where_method_is('clear'),
-    where_method_is('copy'), where_method_is('count'), where_method_is('difference'), where_method_is('discard'),
-    where_method_is('extend'), where_method_is('find'), where_method_is('index'), where_method_is('intersection'),
-    where_method_is('items'), where_method_is('keys'), where_method_is('values'), where_method_is('update'),
-    where_method_is('get'), where_method_is('insert'), where_method_is('lower'), where_method_is('max'),
-    where_method_is('pop'), where_method_is('replace'), where_method_is('split')
-)
-
-# for report in methods_notation:
-#     print(report)

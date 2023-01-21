@@ -9,14 +9,13 @@ def warn(repetitions: int, interval_between_messages: int, typing_bar_x: int, ty
     import pyperclip
 
     adjectives = (
-        'Delícia', 'Amor', 'Minha gata selvagem', 'Minha deusa', 'Gostosa', 'Tesão', 'Moranguinho', 'Bruxinha',
-        'Cerejinha', 'Razão da minha felicidade', 'Lanna aventureira', 'Pituiba', 'Cosplay de boneca russa',
-        'Perestroyka', 'Smirnoff', 'Cleitinha', 'Penípede', 'Tv Marisol', 'Minha deusa das coisinhas microscópicas',
-        'Rosicleude', 'Prospera', 'Consagrada', 'Astralina', 'Tampinha', 'Luluzinha', 'Hello Kitty', 'Mulan',
-        'Toco de gente', 'Smurf Albina', 'Pikachu', 'Mergulhadora de aquário', 'Alpinista de poltrona', 'Cotoco',
-        'Escaladora de meio fio', 'Hobbit', 'Jóquei de pônei', 'Hantara', 'Pequena Sereia', 'Jane de samambaia',
-        'Lenhadora de Bonsai', 'Piloto de autorama', 'Bundinha de almofada', 'Vegana carnívora', 'Amanhecer',
-        'Creusa', 'Leoa das Savanas'
+        'Delícia', 'Amor', 'Gata selvagem', 'Gostosa', 'Tesão', 'Moranguinho', 'Bruxinha', 'Florzinha', 'Cerejinha',
+        'Lanna aventureira', 'Pituiba', 'Cosplay de boneca russa', 'Perestroyka', 'Smirnoff', 'Cleitinha', 'Penípede',
+        'Deusa das coisinhas microscópicas', 'Prospera', 'Consagrada', 'Astralina', 'Tampinha', 'Luluzinha',
+        'Hello Kitty', 'Mulan Ruiva', 'Toco de gente', 'Smurf Albina', 'Mergulhadora de aquário',
+        'Alpinista de poltrona', 'Cotoco', 'Minina de rua', 'Escaladora de meio fio', 'Hobbit', 'Jóquei de pônei',
+        'Hantara', 'Pequena Sereia', 'Jane de samambaia', 'Lenhadora de Bonsai', 'Piloto de autorama',
+        'Bundinha de almofada', 'Vegana carnívora', 'Leoa das Relvas'
     )
 
     sentence_main = 'Você já bebeu água? '

@@ -16,13 +16,3 @@ def mtd_meter_converter(to_type: str, meter_value: float):
             return frame
         else:
             counter += 1
-
-
-if __name__ == '__main__':
-    print(var := mtd_meter_converter(to_type='quilômetro', meter_value=1000))
-    print(var2 := mtd_meter_converter(to_type='hectometro', meter_value=1000))
-    print(var3 := mtd_meter_converter(to_type='decametro', meter_value=1000))
-    print(var4 := mtd_meter_converter(to_type='metro', meter_value=1000))
-    print(var5 := mtd_meter_converter(to_type='decímetro', meter_value=1000))
-    print(var6 := mtd_meter_converter(to_type='centímetro', meter_value=1000))
-    print(var7 := mtd_meter_converter(to_type='milímetro', meter_value=1000))
