@@ -35,9 +35,9 @@ def mtd_temperature_converter(from_type: str, to_type: str, temp_value: float):
 
 
 if __name__ == '__main__':
-    print(var := mtd_temperature_converter(from_type='celsius', to_type='fahrenheit', temp_value=125))
-    print(var2 := mtd_temperature_converter(from_type='celsius', to_type='kelvin', temp_value=125))
-    print(var3 := mtd_temperature_converter(from_type='fahrenheit', to_type='celsius', temp_value=125))
-    print(var4 := mtd_temperature_converter(from_type='fahrenheit', to_type='kelvin', temp_value=125))
-    print(var5 := mtd_temperature_converter(from_type='kelvin', to_type='celsius', temp_value=125))
-    print(var6 := mtd_temperature_converter(from_type='kelvin', to_type='fahrenheit', temp_value=125))
+    # print(var := mtd_temperature_converter(from_type='celsius', to_type='fahrenheit', temp_value=125))
+    # print(var2 := mtd_temperature_converter(from_type='celsius', to_type='kelvin', temp_value=125))
+    print(var3 := mtd_temperature_converter(from_type='fahrenheit', to_type='celsius', temp_value=16))
+    # print(var4 := mtd_temperature_converter(from_type='fahrenheit', to_type='kelvin', temp_value=125))
+    # print(var5 := mtd_temperature_converter(from_type='kelvin', to_type='celsius', temp_value=125))
+    # print(var6 := mtd_temperature_converter(from_type='kelvin', to_type='fahrenheit', temp_value=125))

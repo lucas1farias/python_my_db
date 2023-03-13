@@ -1,6 +1,6 @@
 
 
-def mtd_meter_converter(to_type: str, meter_value: float):
+def meter_converter(to_type: str, meter_value: float):
     """"""
 
     measures = 'quilômetro,hectometro,decametro,metro,decímetro,centímetro,milímetro'.split(',')
@@ -16,3 +16,7 @@ def mtd_meter_converter(to_type: str, meter_value: float):
             return frame
         else:
             counter += 1
+
+
+if __name__ == '__main__':
+    print(meter_converter(to_type='quilômetro', meter_value=12.7))
