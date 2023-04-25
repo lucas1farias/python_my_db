@@ -7,13 +7,16 @@ def contas():
     chave: postgres               valor: p********l*bntwi*
     chave: luuk2772               valor: pa*****t*77*
     chave: luuk2772_2nd           valor: pa*****t*77*_***
+
+    MASTER PASSWORD - PGADMIN4 - INTERFACE
+    chave: pa*******77*
     """
 
 
 # Download do Instalador
 def parte_1():
     """
-    • Ir ao website [ https://www.postgresql.org/ ], clicar na aba [ download ] e no botão referente ao [ windows ]
+    • [ https://www.postgresql.org/ ] aba [ download ] link [ windows ]
     • A página fornecerá um link, procure por ele [ nome visto na época = Download the installer ]
     • A página mudará para outro website, escolher a versão mais atual e a plafatorma [ Windows x86-64 ]
     • [ Download ]
@@ -23,7 +26,7 @@ def parte_1():
 # Setup do instalador (Porta = 5432) (Arquivos salvos em C:\Program Files\PostgreSQL\14\data)
 def parte_2():
     """
-    • O instalador informa onde irá instalar o software, sendo o padrão [ C:\Program Files\PostgreSQL\ ]
+    • Local do instalador [ C:\Program Files\PostgreSQL\ ]
     • Select Components || PostgreSQL Server -> pgAdmin4 -> Stack Builder -> Command Line Tools -> [ next ]
     • Data Directory    || Por padrão, o instalar recomenda [ C:\Program Files\PostgreSQL\13\data ] -> [ next ]
     • Password          || Escolher a senha e redigitar -> [ next ]

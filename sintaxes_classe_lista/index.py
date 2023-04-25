@@ -12,6 +12,7 @@ Observação:
 
 # @list @range @string @tuple
 
+
 def scan(classe, dado, indice):
     try:
         print(classe, dado.index(indice))
@@ -19,6 +20,7 @@ def scan(classe, dado, indice):
         print('{}{}{}'.format('\033[1:31m', error, '\033[m'))
     except ValueError as error:
         print('{}{}{}'.format('\033[1:31m', error, '\033[m'))
+
 
 scan('booleano', True, True)
 scan('complexo', 7j, 2j)
